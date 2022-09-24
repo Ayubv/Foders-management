@@ -1,0 +1,80 @@
+/* my custom css
+*/
+body{
+    margin:0;
+    padding:0;
+    outline: 0;
+}
+.sb-sidenav-menu{
+    background-image: linear-gradient(rgb(32 137 15 / 98%),rgb(10 129 13 / 93%)), url(/images/pro1.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.sb-sidenav .sb-sidenav-menu .nav .nav-link {
+    color: #fff;
+}
+.sb-sidenav .sb-sidenav-menu .nav .sb-sidenav-menu-heading {
+    color: #fff;
+}
+svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa {
+    color: #fff;
+}
+.sb-topnav{
+    background-image: linear-gradient(rgb(52 28 183 / 88%),rgb(77 195 13 / 93%)), url(/images/pro1.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.foders-section{
+    margin:20px;
+}
+/*main*/
+
+main{
+    margin:20px;
+}
+/* table css*/
+table,th,td{
+    border:1px solid gray;
+}
+th {
+    text-align: center;
+}
+td {
+    text-align: center;
+}
+i.bi.bi-pen {
+    font-size: 15px;
+    color: #fff
+}
+
+a.btn.btn-secondary {
+    text-transform: capitalize;
+}
+
+/*alert message style*/
+input, button, select, optgroup, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    border: none;
+    float: right;
+    background: none;
+}
+/*delete popup message style*/
+.mydelete{
+    margin-left: 10px;
+    width: 12px;
+    height: 23px;
+}
+
+svg.svg-inline--fa.fa-trash.mydelete {
+    color: #eedf0fcf;
+}
+/*cowdelete*/
+.cowdelete{
+    margin-left: 4px;
+}
